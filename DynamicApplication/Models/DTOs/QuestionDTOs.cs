@@ -8,10 +8,10 @@
     public record ParagraphQuestionDTO(string Value, int QuestionNumber);
     public record FieldDTO(bool IsInternal, bool Hide);
 
-    public record DateAnswerDTO(Guid QuestionId, DateOnly Value);
-    public record ParagraphAnswerDTO(Guid QuestionId, string Value);
-    public record DropdownAnswerDTO(Guid QuestionId, string Value);
-    public record NumericAnswerDTO(Guid QuestionId, decimal Value);
-    public record YesOrNoAnswerDTO(Guid QuestionId, string Value);
-    public record MultichoiceAnswerDTO(Guid QuestionId, List<string> Value);
+    public record DateAnswerDTO(int QuestionNumber, DateOnly Value);
+    public record ParagraphAnswerDTO(int QuestionNumber, string Value);
+    public record DropdownAnswerDTO(int QuestionNumber, string Value);
+    public record NumericAnswerDTO(int QuestionNumber, decimal Value);
+    public record YesOrNoAnswerDTO(int QuestionNumber, string Value);
+    public record MultichoiceAnswerDTO(int QuestionNumber, List<string> Value);
 }

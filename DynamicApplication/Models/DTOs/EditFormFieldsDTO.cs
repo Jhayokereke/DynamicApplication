@@ -1,6 +1,6 @@
 ﻿namespace DynamicApplication.Models.DTOs
 {
-    public class FormFieldsDTO
+    public class EditFormFieldsDTO
     {
         public string Id { get; set; }
         public string ProgramTitle { get; set; }

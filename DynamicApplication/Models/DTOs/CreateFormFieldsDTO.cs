@@ -1,8 +1,7 @@
 ﻿namespace DynamicApplication.Models.DTOs
 {
-    public class FormFieldsDTO
+    public class CreateFormFieldsDTO
     {
-        public string Id { get; set; }
         public string ProgramTitle { get; set; }
         public string ProgramDescription { get; set; }
         public FieldDTO Phone { get; set; }
